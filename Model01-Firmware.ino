@@ -251,18 +251,18 @@ KEYMAPS(
    ___),
 
   [FUNCTION] =  KEYMAP_STACKED
-  (___,      Key_F1,           Key_F2,      Key_F3,     Key_F4,        Key_F5,           Key_CapsLock,
-   Key_Tab,  ___,              Key_mouseUp, ___,        Key_mouseBtnR, Key_mouseWarpEnd, Key_mouseWarpNE,
-   Key_Home, Key_mouseL,       Key_mouseDn, Key_mouseR, Key_mouseBtnL, Key_mouseWarpNW,
-   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        Key_mouseBtnM, Key_mouseWarpSW,  Key_mouseWarpSE,
-   ___, Key_Enter, ___, ___,
+  (___,      Key_F1,                    Key_F2,          Key_F3,          Key_F4,        Key_F5,           Key_CapsLock,
+   Key_Tab,  ___,                       Key_UpArrow,     ___,             ___,            ___,             Key_Tab,
+   Key_CapsLock, Key_LeftArrow,         Key_DownArrow,   Key_RightArrow,  ___,            ___,
+   Key_RightControl,  Key_PrintScreen,  Key_Insert,      ___,             ___,            ___,              ___,
+   ___, Key_Enter, Key_RightAlt, ___,
    ___,
 
    Key_Delete, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
    Key_Home,   Key_PageUp,             Key_LeftCurlyBracket,     Key_RightCurlyBracket,    Key_LeftBracket, Key_RightBracket, Key_F12,
                Key_LeftArrow,          Key_DownArrow,            Key_UpArrow,              Key_RightArrow,  ___,              ___,
    Key_End,    Key_PageDown,           ___,                      ___,                      ___,             Key_Backslash,    Key_Pipe,
-   ___, ___, Key_Delete, ___,
+   ___, Key_RightGui, Key_Delete, ___,
    ___)
   ) // KEYMAPS(
 
@@ -422,17 +422,17 @@ KALEIDOSCOPE_INIT_PLUGINS(
 
   // The chase effect follows the adventure of a blue pixel which chases a red pixel across
   // your keyboard. Spoiler: the blue pixel never catches the red pixel
-  LEDChaseEffect,
+  // LEDChaseEffect,
 
   // These static effects turn your keyboard's LEDs a variety of colors
-  solidRed, solidOrange, solidYellow, solidGreen, solidBlue, solidIndigo, solidViolet,
+  // solidRed, solidOrange, solidYellow, solidGreen, solidBlue, solidIndigo, solidViolet,
 
   // The breathe effect slowly pulses all of the LEDs on your keyboard
   LEDBreatheEffect,
 
   // The AlphaSquare effect prints each character you type, using your
   // keyboard's LEDs as a display
-  AlphaSquareEffect,
+  // AlphaSquareEffect,
 
   // The stalker effect lights up the keys you've pressed recently
   StalkerEffect,
