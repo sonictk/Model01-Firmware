@@ -224,7 +224,7 @@ KEYMAPS(
    Key_Enter,     Key_Y, Key_U, Key_I,     Key_O,         Key_P,         Key_Equals,
                   Key_H, Key_J, Key_K,     Key_L,         Key_Semicolon, Key_Quote,
    Key_RightGui,  Key_N, Key_M, Key_Comma, Key_Period,    Key_Slash,     Key_Minus,
-   Key_RightShift, Key_LeftAlt, Key_Backspace, Key_RightControl,
+   Key_RightShift, Key_RightAlt, Key_Backspace, Key_RightControl,
    ShiftToLayer(FUNCTION)),
 
 #else 
@@ -255,14 +255,14 @@ KEYMAPS(
    Key_Tab,  ___,                       Key_UpArrow,     ___,             ___,            ___,             Key_Tab,
    Key_CapsLock, Key_LeftArrow,         Key_DownArrow,   Key_RightArrow,  ___,            ___,
    Key_RightControl,  Key_PrintScreen,  Key_Insert,      ___,             ___,            ___,              ___,
-   ___, Key_Enter, Key_RightAlt, ___,
+   ___, Key_Enter, Key_LeftAlt, ___,
    ___,
 
    Key_Delete, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
    Key_Home,   Key_PageUp,             Key_LeftCurlyBracket,     Key_RightCurlyBracket,    Key_LeftBracket, Key_RightBracket, Key_F12,
-               Key_LeftArrow,          Key_DownArrow,            Key_UpArrow,              Key_RightArrow,  ___,              ___,
+               Key_LeftArrow,          Key_DownArrow,            Key_UpArrow,              Key_RightArrow,  Key_Insert,       Key_PrintScreen,
    Key_End,    Key_PageDown,           ___,                      ___,                      ___,             Key_Backslash,    Key_Pipe,
-   ___, Key_RightGui, Key_Delete, ___,
+   ___, ___, Key_Delete, ___,
    ___)
   ) // KEYMAPS(
 
