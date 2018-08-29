@@ -217,7 +217,7 @@ KEYMAPS(
    Key_Backtick, Key_Q, Key_W, Key_E, Key_R, Key_T, Key_Tab,
    Key_PageUp,   Key_A, Key_S, Key_D, Key_F, Key_G,
    Key_PageDown, Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Escape,
-   Key_LeftControl, Key_Spacebar, Key_LeftGui, Key_LeftShift,
+   Key_LeftControl, Key_Spacebar, Key_LeftAlt, Key_LeftShift,
    ShiftToLayer(FUNCTION),
 
    Key_CapsLock,  Key_6, Key_7, Key_8,     Key_9,         Key_0,         LockLayer(NUMPAD),
@@ -254,7 +254,7 @@ KEYMAPS(
   (___,                        Key_F1,                    Key_F2,             Key_F3,             Key_F4,                 Key_F5,          Key_CapsLock,
    Key_Tab,                    ___,                       ___,                Key_UpArrow,        ___,                    ___,             Key_Tab,
    Key_CapsLock,               ___,                       Key_LeftArrow,      Key_DownArrow,      Key_RightArrow,         ___,             
-   Key_RightControl,           Key_PrintScreen,           Key_Insert,         ___,                ___,                    ___,             ___,
+   Key_RightControl,           Key_PrintScreen,           Key_Insert,         ___,                ___,                    ___,             Key_LeftGui,
    ___, Key_Enter, Key_LeftAlt, ___,
    ___,
 
