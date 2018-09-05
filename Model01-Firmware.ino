@@ -255,13 +255,13 @@ KEYMAPS(
    Key_Tab,                    ___,                       ___,                Key_UpArrow,        ___,                    ___,             Key_Tab,
    Key_CapsLock,               ___,                       Key_LeftArrow,      Key_DownArrow,      Key_RightArrow,         ___,             
    Key_RightControl,           Key_PrintScreen,           Key_Insert,         ___,                ___,                    ___,             Key_LeftGui,
-   ___, Key_Enter, Key_LeftAlt, ___,
+   ___, Key_Enter, ___, ___,
    ___,
 
    Key_Delete, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
    Key_Home,   Key_PageUp,             Key_LeftCurlyBracket,     Key_RightCurlyBracket,    Key_LeftBracket, Key_RightBracket, Key_F12,
                Key_LeftArrow,          Key_DownArrow,            Key_UpArrow,              Key_RightArrow,  Key_Insert,       Key_PrintScreen,
-   Key_End,    Key_PageDown,           ___,                      ___,                      ___,             Key_Backslash,    Key_Pipe,
+   ___,        Key_PageDown,           Key_End,                  ___,                      ___,             Key_Backslash,    Key_Pipe,
    ___, ___, Key_Delete, ___,
    ___)
   ) // KEYMAPS(
