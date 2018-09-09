@@ -274,9 +274,9 @@ KEYMAPS(
    ___,
 
    ___,          ___,                    ___,             ___,             ___,                 ___,          ___,
-   ___,          ___,                    ___,             Key_UpArrow,     ___,                 ___,          ___,
-                 ___,                    Key_LeftArrow,   Key_DownArrow,   Key_RightArrow,      ___,          ___,
-   ___,          ___,                    ___,             ___,             ___,                 ___,          ___,
+   ___,          Key_mouseBtnM,          ___,             Key_UpArrow,     ___,                 ___,          ___,
+                 Key_mouseBtnL,          Key_LeftArrow,   Key_DownArrow,   Key_RightArrow,      ___,          ___,
+   ___,          Key_mouseBtnR,          ___,             ___,             ___,                 ___,          ___,
    ___, ___, ___, ___,
    ___)
   ) // KEYMAPS(
@@ -510,6 +510,11 @@ void setup() {
   // This avoids over-taxing devices that don't have a lot of power to share
   // with USB devices
   LEDOff.activate();
+
+  // Mouse keys plugin options for having reasonable default speeds.
+  MouseKeys.speed = 6;
+  MouseKeys.accelSpeed = 1;
+  MouseKeys.accelDelay = 50;
 }
 
 /** loop is the second of the standard Arduino sketch functions.
