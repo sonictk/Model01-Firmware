@@ -514,7 +514,8 @@ void setup() {
   // Mouse keys plugin options for having reasonable default speeds.
   MouseKeys.speed = 6;
   MouseKeys.accelSpeed = 1;
-  MouseKeys.accelDelay = 50;
+  MouseKeys.accelDelay = 100;
+  MouseKeys.setSpeedLimit(24);
 }
 
 /** loop is the second of the standard Arduino sketch functions.
