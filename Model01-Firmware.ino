@@ -512,10 +512,10 @@ void setup() {
   LEDOff.activate();
 
   // Mouse keys plugin options for having reasonable default speeds.
-  MouseKeys.speed = 6;
-  MouseKeys.accelSpeed = 1;
+  MouseKeys.speed = 5;
+  MouseKeys.accelSpeed = 5;
   MouseKeys.accelDelay = 100;
-  MouseKeys.setSpeedLimit(24);
+  MouseKeys.setSpeedLimit(64);
 }
 
 /** loop is the second of the standard Arduino sketch functions.
