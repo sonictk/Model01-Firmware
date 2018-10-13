@@ -516,6 +516,10 @@ void setup() {
   MouseKeys.accelSpeed = 5;
   MouseKeys.accelDelay = 100;
   MouseKeys.setSpeedLimit(64);
+
+  // Configure the Caps lock plugin to use less power.
+  CapsLock.color = CRGB(120, 0, 0);
+  CapsLock.highlightShiftKeys = 0; // Do not highlight the shift keys.
 }
 
 /** loop is the second of the standard Arduino sketch functions.
