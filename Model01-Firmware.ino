@@ -443,7 +443,7 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // solidRed, solidOrange, solidYellow, solidGreen, solidBlue, solidIndigo, solidViolet,
 
   // The breathe effect slowly pulses all of the LEDs on your keyboard
-  LEDBreatheEffect,
+  // LEDBreatheEffect,
 
   // The AlphaSquare effect prints each character you type, using your
   // keyboard's LEDs as a display
@@ -485,6 +485,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
  * It's called when your keyboard first powers up. This is where you set up
  * Kaleidoscope and any plugins.
  */
+
+#define LED_BRIGHTNESS 100
+
 void setup() {
   // First, call Kaleidoscope's internal setup function
   Kaleidoscope.setup();
@@ -498,8 +501,9 @@ void setup() {
 
   // We set the brightness of the rainbow effects to 150 (on a scale of 0-255)
   // This draws more than 500mA, but looks much nicer than a dimmer effect
-  LEDRainbowEffect.brightness(150);
-  LEDRainbowWaveEffect.brightness(150);
+  // NOTE: (yliangsiew) Set it lower to prevent shorting of USB 2.0 ports
+  LEDRainbowEffect.brightness(LED_BRIGHTNESS);
+  LEDRainbowWaveEffect.brightness(LED_BRIGHTNESS);
 
   // The LED Stalker mode has a few effects. The one we like is
   // called 'BlazingTrail'. For details on other options,
@@ -518,7 +522,7 @@ void setup() {
   MouseKeys.setSpeedLimit(64);
 
   // Configure the Caps lock plugin to use less power.
-  CapsLock.color = CRGB(120, 0, 0);
+  CapsLock.color = CRGB(LED_BRIGHTNESS, 0, 0);
   CapsLock.highlightShiftKeys = 0; // Do not highlight the shift keys.
 }
 
